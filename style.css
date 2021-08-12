@@ -311,7 +311,7 @@
   .typewriter p {
     font-size: 3rem;
     font-weight: 200;
-    font-style: italic;
+    font-style: normal;
     color: var(--main-lightblue);
     overflow: hidden; 
     border-right: .10em solid yellow;
@@ -319,7 +319,7 @@
     margin: 0 auto;
     animation: 
       typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
+      blink-caret 0.5s step-end infinite;
   }
   
   @keyframes typing {
